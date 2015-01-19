@@ -1,0 +1,473 @@
+object Form3: TForm3
+  Left = -19
+  Height = 551
+  Top = 0
+  Width = 735
+  Caption = 'Form3'
+  ClientHeight = 551
+  ClientWidth = 735
+  OnCreate = FormCreate
+  LCLVersion = '1.2.4.0'
+  object TrackBar1: TTrackBar
+    Left = 32
+    Height = 25
+    Top = 8
+    Width = 464
+    Max = 32
+    Min = 1
+    OnChange = TrackBar1Change
+    Position = 1
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Left = 152
+    Height = 25
+    Top = 448
+    Width = 75
+    Caption = 'Close'
+    OnClick = Button1Click
+    TabOrder = 1
+  end
+  object Label1: TLabel
+    Left = 504
+    Height = 15
+    Top = 8
+    Width = 34
+    Caption = 'Label1'
+    ParentColor = False
+  end
+  object TrackBar2: TTrackBar
+    Left = 32
+    Height = 25
+    Top = 30
+    Width = 464
+    Max = 32
+    Min = 1
+    OnChange = TrackBar2Change
+    Position = 1
+    TabOrder = 2
+  end
+  object TrackBar3: TTrackBar
+    Left = 32
+    Height = 25
+    Top = 51
+    Width = 464
+    Max = 32
+    Min = 1
+    OnChange = TrackBar3Change
+    Position = 1
+    TabOrder = 3
+  end
+  object TrackBar4: TTrackBar
+    Left = 32
+    Height = 25
+    Top = 76
+    Width = 464
+    Max = 32
+    Min = 1
+    OnChange = TrackBar4Change
+    Position = 1
+    TabOrder = 4
+  end
+  object TrackBar5: TTrackBar
+    Left = 32
+    Height = 25
+    Top = 101
+    Width = 464
+    Max = 32
+    Min = 1
+    OnChange = TrackBar5Change
+    Position = 1
+    TabOrder = 5
+  end
+  object TrackBar6: TTrackBar
+    Left = 32
+    Height = 25
+    Top = 127
+    Width = 464
+    Max = 32
+    Min = 1
+    OnChange = TrackBar6Change
+    Position = 1
+    TabOrder = 6
+  end
+  object TrackBar7: TTrackBar
+    Left = 32
+    Height = 25
+    Top = 149
+    Width = 464
+    Max = 32
+    Min = 1
+    OnChange = TrackBar7Change
+    Position = 1
+    TabOrder = 7
+  end
+  object TrackBar8: TTrackBar
+    Left = 32
+    Height = 25
+    Top = 171
+    Width = 464
+    Max = 32
+    Min = 1
+    OnChange = TrackBar8Change
+    Position = 1
+    TabOrder = 8
+  end
+  object TrackBar9: TTrackBar
+    Left = 32
+    Height = 25
+    Top = 201
+    Width = 464
+    Max = 32
+    Min = 1
+    OnChange = TrackBar9Change
+    Position = 1
+    TabOrder = 9
+  end
+  object TrackBar10: TTrackBar
+    Left = 32
+    Height = 25
+    Top = 224
+    Width = 464
+    Max = 32
+    Min = 1
+    OnChange = TrackBar10Change
+    Position = 1
+    TabOrder = 10
+  end
+  object TrackBar11: TTrackBar
+    Left = 32
+    Height = 25
+    Top = 247
+    Width = 464
+    Max = 32
+    Min = 1
+    OnChange = TrackBar11Change
+    Position = 1
+    TabOrder = 11
+  end
+  object TrackBar12: TTrackBar
+    Left = 32
+    Height = 25
+    Top = 270
+    Width = 464
+    Max = 32
+    Min = 1
+    OnChange = TrackBar12Change
+    Position = 1
+    TabOrder = 12
+  end
+  object TrackBar13: TTrackBar
+    Left = 32
+    Height = 25
+    Top = 292
+    Width = 464
+    Max = 32
+    Min = 1
+    OnChange = TrackBar13Change
+    Position = 1
+    TabOrder = 13
+  end
+  object TrackBar14: TTrackBar
+    Left = 32
+    Height = 25
+    Top = 315
+    Width = 464
+    Max = 32
+    Min = 1
+    OnChange = TrackBar14Change
+    Position = 1
+    TabOrder = 14
+  end
+  object TrackBar15: TTrackBar
+    Left = 32
+    Height = 25
+    Top = 337
+    Width = 464
+    Max = 32
+    Min = 1
+    OnChange = TrackBar15Change
+    Position = 1
+    TabOrder = 15
+  end
+  object TrackBar16: TTrackBar
+    Left = 32
+    Height = 25
+    Top = 360
+    Width = 464
+    Max = 32
+    Min = 1
+    OnChange = TrackBar16Change
+    Position = 1
+    TabOrder = 16
+  end
+  object Label2: TLabel
+    Left = 504
+    Height = 15
+    Top = 30
+    Width = 34
+    Caption = 'Label2'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 504
+    Height = 15
+    Top = 51
+    Width = 34
+    Caption = 'Label3'
+    ParentColor = False
+  end
+  object Label4: TLabel
+    Left = 504
+    Height = 15
+    Top = 76
+    Width = 34
+    Caption = 'Label4'
+    ParentColor = False
+  end
+  object Button2: TButton
+    Left = 336
+    Height = 25
+    Top = 392
+    Width = 75
+    Caption = 'Reset all'
+    OnClick = Button2Click
+    TabOrder = 17
+  end
+  object Label5: TLabel
+    Left = 504
+    Height = 15
+    Top = 101
+    Width = 34
+    Caption = 'Label5'
+    ParentColor = False
+  end
+  object Label6: TLabel
+    Left = 504
+    Height = 15
+    Top = 125
+    Width = 34
+    Caption = 'Label6'
+    ParentColor = False
+  end
+  object Label7: TLabel
+    Left = 504
+    Height = 15
+    Top = 151
+    Width = 34
+    Caption = 'Label7'
+    ParentColor = False
+  end
+  object Label8: TLabel
+    Left = 504
+    Height = 15
+    Top = 171
+    Width = 34
+    Caption = 'Label8'
+    ParentColor = False
+  end
+  object Label9: TLabel
+    Left = 504
+    Height = 15
+    Top = 201
+    Width = 34
+    Caption = 'Label9'
+    ParentColor = False
+  end
+  object Label10: TLabel
+    Left = 504
+    Height = 15
+    Top = 224
+    Width = 40
+    Caption = 'Label10'
+    ParentColor = False
+  end
+  object Label11: TLabel
+    Left = 504
+    Height = 15
+    Top = 247
+    Width = 40
+    Caption = 'Label11'
+    ParentColor = False
+  end
+  object Label12: TLabel
+    Left = 504
+    Height = 15
+    Top = 270
+    Width = 40
+    Caption = 'Label12'
+    ParentColor = False
+  end
+  object Label13: TLabel
+    Left = 504
+    Height = 15
+    Top = 292
+    Width = 40
+    Caption = 'Label13'
+    ParentColor = False
+  end
+  object Label14: TLabel
+    Left = 504
+    Height = 15
+    Top = 312
+    Width = 40
+    Caption = 'Label14'
+    ParentColor = False
+  end
+  object Label15: TLabel
+    Left = 504
+    Height = 15
+    Top = 337
+    Width = 40
+    Caption = 'Label15'
+    ParentColor = False
+  end
+  object Label16: TLabel
+    Left = 504
+    Height = 15
+    Top = 362
+    Width = 40
+    Caption = 'Label16'
+    ParentColor = False
+  end
+  object Label17: TLabel
+    Left = 8
+    Height = 15
+    Top = 9
+    Width = 21
+    Caption = 'Ch1'
+    ParentColor = False
+  end
+  object Label18: TLabel
+    Left = 8
+    Height = 15
+    Top = 30
+    Width = 21
+    Caption = 'Ch2'
+    ParentColor = False
+  end
+  object Label19: TLabel
+    Left = 8
+    Height = 15
+    Top = 51
+    Width = 21
+    Caption = 'Ch3'
+    ParentColor = False
+  end
+  object Label20: TLabel
+    Left = 8
+    Height = 15
+    Top = 76
+    Width = 21
+    Caption = 'Ch4'
+    ParentColor = False
+  end
+  object Label21: TLabel
+    Left = 8
+    Height = 15
+    Top = 101
+    Width = 21
+    Caption = 'Ch5'
+    ParentColor = False
+  end
+  object Label22: TLabel
+    Left = 8
+    Height = 15
+    Top = 127
+    Width = 21
+    Caption = 'Ch6'
+    ParentColor = False
+  end
+  object Label23: TLabel
+    Left = 8
+    Height = 15
+    Top = 151
+    Width = 21
+    Caption = 'Ch7'
+    ParentColor = False
+  end
+  object Label24: TLabel
+    Left = 8
+    Height = 15
+    Top = 171
+    Width = 21
+    Caption = 'Ch8'
+    ParentColor = False
+  end
+  object Label25: TLabel
+    Left = 8
+    Height = 15
+    Top = 200
+    Width = 21
+    Caption = 'Ch9'
+    ParentColor = False
+  end
+  object Label26: TLabel
+    Left = 8
+    Height = 15
+    Top = 224
+    Width = 27
+    Caption = 'Ch10'
+    ParentColor = False
+  end
+  object Label27: TLabel
+    Left = 8
+    Height = 15
+    Top = 248
+    Width = 27
+    Caption = 'Ch11'
+    ParentColor = False
+  end
+  object Label28: TLabel
+    Left = 8
+    Height = 15
+    Top = 270
+    Width = 27
+    Caption = 'Ch12'
+    ParentColor = False
+  end
+  object Label29: TLabel
+    Left = 8
+    Height = 15
+    Top = 292
+    Width = 27
+    Caption = 'Ch13'
+    ParentColor = False
+  end
+  object Label30: TLabel
+    Left = 8
+    Height = 15
+    Top = 315
+    Width = 27
+    Caption = 'Ch14'
+    ParentColor = False
+  end
+  object Label31: TLabel
+    Left = 8
+    Height = 15
+    Top = 337
+    Width = 27
+    Caption = 'Ch15'
+    ParentColor = False
+  end
+  object Label32: TLabel
+    Left = 8
+    Height = 15
+    Top = 362
+    Width = 27
+    Caption = 'Ch16'
+    ParentColor = False
+  end
+  object SQLQuery1: TSQLQuery
+    FieldDefs = <>
+    Transaction = SQLTransaction1
+    Params = <>
+    left = 560
+    top = 80
+  end
+  object SQLTransaction1: TSQLTransaction
+    Active = False
+    left = 560
+    top = 8
+  end
+end

@@ -1,0 +1,4 @@
+To: psuhajda@outlook.hu
+From: alert_system@basevago.hu
+Subject: alert_from_box
+The Env.system is broken on : channel1 2014.12.17. 20:14:52
